@@ -1,0 +1,27 @@
+.pages{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 35%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.pages a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited { text-decoration: none; color: black;}
+a:hover { text-decoration: none; color: black;}
+a:focus { text-decoration: none; color: black;}
+a:hover, a:active { text-decoration: none;color: black;}
+.pages .active{
+    color: rgb(57, 185, 67)
+}
+.pages p:hover{
+    cursor: pointer;
+}
