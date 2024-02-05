@@ -2,7 +2,13 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  
 }
 body{
   background-color: rgb(230, 230, 230);
+  font-family: 'Roboto', sans-serif;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }

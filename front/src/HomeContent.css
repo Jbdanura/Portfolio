@@ -1,0 +1,124 @@
+.home-main{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.home-main{
+    display: flex;
+    justify-content: space-between;
+}
+.home-main .right img{
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+}
+.left-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    margin-bottom: 20px;
+}
+.home-main h1{
+    font-size: 42px;
+    width: 80%;
+    font-weight: bolder;
+}
+.home-main p{
+    font-size: 17px;
+    width: 70%;
+    margin-top: 30px;
+    color: rgb(88, 88, 88);
+    line-height: 27px;
+}
+.links *{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.links img{
+    width: 42px;
+    height: 40px;
+    transform: translateY(6px);
+    border-radius: 6px;
+}
+.links *:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.links{
+    margin-top: 20px;
+}
+@media screen and (max-width:1200px){
+    .home-main .right img{
+        width: 300px;
+        height: 300px;
+    }
+    .home-main h1{
+        font-size: 38px;
+
+    }
+    .home-main p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:1000px){
+    .home-main .right img{
+        width: 250px;
+        height: 250px;
+    }
+    .home-main{
+        width: 85%;
+    }
+    .home-main h1{
+        font-size: 35px;
+        width: 98%;
+    }
+    .home-main p{
+        font-size: 15px;
+        width: 80%;
+    }
+}
+@media screen and (max-width:830px){
+    .home-main .right img{
+        width: 200px;
+        height: 200px;
+    }
+    .home-main{
+        width: 95%;
+    }
+    .home-main h1{
+        font-size: 30px;
+    }
+    .home-main p{
+        font-size: 15px;
+        width: 90%;
+    }
+    .links *{
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    .links img{
+        width: 32px;
+        height: 30px;
+        transform: translateY(5px);
+        border-radius: 6px;
+    }
+}
+@media screen and (max-width:600px){
+    .home-main{
+        display: block;
+    }
+    .links *{
+        font-size: 38px;
+        margin-right: 5px;
+    }
+    .links img{
+        width: 40px;
+        height: 38px;
+        transform: translateY(6px);
+    }
+    .home-main .right img{
+        margin: 0;
+        margin-top: 40px;
+    }
+
+}

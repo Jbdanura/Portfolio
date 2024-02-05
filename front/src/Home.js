@@ -11,6 +11,7 @@ import Education from "./Education"
 import About from "./About"
 import Contact from "./Contact"
 import Footer from "./Footer"
+import HomeContent from './HomeContent';
 
 const Home = () => {
   const [active,setActive] = useState("home")
@@ -25,6 +26,9 @@ const Home = () => {
                 <Route path="/about" element={<About setActive={setActive}/>}/>
                 <Route path="/contact" element={<Contact setActive={setActive}/>}/>
             </Routes>
+            {active === "home" && <div className="home-active">
+              <HomeContent/>
+            </div>}
             <Footer/>
         </Router>
   </div>
