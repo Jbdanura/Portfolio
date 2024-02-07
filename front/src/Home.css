@@ -1,9 +1,11 @@
 .home{
     width: 70vw;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 auto;
     background-color: rgb(245, 245, 245);
+    position: relative;
 }
+
 @media screen and (max-width:1300px){
     .home{
         width: 80vw;

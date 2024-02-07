@@ -3,6 +3,9 @@
     margin: 0 auto;
     margin-top: 60px;
 }
+.home-content{
+    margin-bottom: 100px;
+}
 .home-main{
     display: flex;
     justify-content: space-between;
@@ -116,8 +119,13 @@
         height: 38px;
         transform: translateY(6px);
     }
+    .home-content{
+        margin-bottom: 20px;
+    }
     .home-main .right img{
-        margin: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
         margin-top: 40px;
     }
 

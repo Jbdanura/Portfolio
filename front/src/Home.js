@@ -28,6 +28,7 @@ const Home = () => {
             </Routes>
             {active === "home" && <div className="home-active">
               <HomeContent/>
+              <Projects/>
             </div>}
             <Footer/>
         </Router>
