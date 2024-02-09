@@ -12,6 +12,8 @@ import About from "./About"
 import Contact from "./Contact"
 import Footer from "./Footer"
 import HomeContent from './HomeContent';
+import ProjectsPage from './ProjectsPage';
+import SkillsPage from './SkillsPage';
 
 const Home = () => {
   const [active,setActive] = useState("home")
@@ -21,14 +23,13 @@ const Home = () => {
         <Router>
             <Header active={active} setActive={setActive}/>
             <Routes>
-                <Route path="/projects" element={<Projects setActive={setActive}/>}/>
-                <Route path="/Skills" element={<Skills setActive={setActive}/>}/>
-                <Route path="/about" element={<About setActive={setActive}/>}/>
-                <Route path="/contact" element={<Contact setActive={setActive}/>}/>
+                <Route path="/projects" element={<ProjectsPage/>}/>
+                <Route path="/skills" element={<SkillsPage/>}/>
+                <Route path="/about" element={<About/>}/>
+                <Route path="/contact" element={<Contact/>}/>
             </Routes>
             {active === "home" && <div className="home-active">
               <HomeContent/>
-              <Projects/>
             </div>}
             <Footer/>
         </Router>
