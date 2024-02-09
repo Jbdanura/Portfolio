@@ -7,7 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import Projects from './Projects'
-import Education from "./Education"
+import Skills from "./Skills"
 import About from "./About"
 import Contact from "./Contact"
 import Footer from "./Footer"
@@ -22,7 +22,7 @@ const Home = () => {
             <Header active={active} setActive={setActive}/>
             <Routes>
                 <Route path="/projects" element={<Projects setActive={setActive}/>}/>
-                <Route path="/education" element={<Education setActive={setActive}/>}/>
+                <Route path="/Skills" element={<Skills setActive={setActive}/>}/>
                 <Route path="/about" element={<About setActive={setActive}/>}/>
                 <Route path="/contact" element={<Contact setActive={setActive}/>}/>
             </Routes>

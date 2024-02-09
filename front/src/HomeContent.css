@@ -36,6 +36,7 @@
 .links *{
     font-size: 40px;
     margin-right: 10px;
+    transition: 0.3s;
 }
 .links img{
     width: 42px;

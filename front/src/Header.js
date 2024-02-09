@@ -9,7 +9,7 @@ const Header = ({active,setActive}) => {
         <div className="pages">
             <Link to="/" className={active == "home" && "active"} onClick={()=>setActive("home")}>Home</Link>
             <Link to="/projects" className={active == "projects" && "active"} onClick={()=>setActive("projects")}>Projects</Link>
-            <Link to="/education" className={active == "education" && "active"} onClick={()=>setActive("education")}>Education</Link>
+            <Link to="/skills" className={active == "skills" && "active"} onClick={()=>setActive("skills")}>Skills</Link>
             <Link to="/about" className={active == "about" && "active"} onClick={()=>setActive("about")}>About</Link>
             <Link to="/contact"className={active == "contact" && "active"} onClick={()=>setActive("contact")}>Contact</Link>
         </div>
