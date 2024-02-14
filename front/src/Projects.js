@@ -19,6 +19,7 @@ const Projects = () => {
           <p>{project.content}</p>
           <img className="project-img" src={imgs[index]}/>
           <a className="visit-site" href={project.link} target='_blank'>&gt; Visit site</a>
+          {index === 3 && <p style={{color:'grey'}}>(May take 30 seconds to load and doesn't use SSL certificate since it's a free host)</p>}
         </div>
       })}
     </div>

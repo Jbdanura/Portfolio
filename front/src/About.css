@@ -22,3 +22,57 @@
     transform: rotate(4deg);
     border-radius: 20px;
 }
+.certificates{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.certificates img{
+    width: 100%;
+
+}
+.certificates-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.certificates-container a{
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+}
+@media screen  and (max-width:1500px){
+    .info{
+        width: 60%;
+    }
+    .about-top img{
+        width: 30%;
+        height: 30%;
+    }
+}
+@media screen  and (max-width:1000px){
+    .certificates-container a{
+        width: 45%;
+        margin: 10px;
+    }
+}
+@media screen  and (max-width:800px){
+    .certificates-container a{
+        width: 95%;
+        margin: 10px;
+    }
+    .about-top{
+        display: block;
+    }
+    .info{
+        width: 90%;
+    }
+    .about-top img{
+        width: 40%;
+        height: 40%;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: block;
+    }
+}
