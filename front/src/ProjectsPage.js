@@ -1,9 +1,19 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import Projects from './Projects'
+import "./Projects.css"
 
 const ProjectsPage = () => {
+
+  const [show,setShow] = useState(false)
+
+  useEffect(()=>{
+    setTimeout(()=>{
+        setShow(true)
+    },1)
+  },[])
+
   return (
-    <div className='projects-page'>
+    <div className={show ? "projects-page-active" : "projects-page"}>
         <div className='projects-intro'>
             <h3>My projects</h3>
             <p>

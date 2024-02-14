@@ -1,0 +1,6 @@
+.contact{
+    opacity: 0;
+}
+.contact-active{
+    transition: 1s;
+}

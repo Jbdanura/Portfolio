@@ -5,6 +5,12 @@
     margin: 0 auto;
     padding-bottom: 150px;
 }
+.projects-page{
+    transform: translateY(10000px);
+}
+.projects-page-active{
+    transition: 1s;
+}
 .project{
     margin-right: 30px;
     margin-top: 30px;

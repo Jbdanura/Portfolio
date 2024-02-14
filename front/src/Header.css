@@ -7,21 +7,20 @@
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
-    padding: 0 15px;
+    border: 1px solid #d82148;
 }
 .pages a{
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
-    font-weight: bold;
     text-decoration: none;
-    color: inherit;
+    color: #d82148;
     transition: 0.3s;
 }
 a:hover{
-    color: green;
+    color: #fc587c;
 }
 .pages .active{
-    color: rgb(57, 185, 67)
+    color: rgb(255, 115, 146);
+    font-weight: bolder;
 }
 .pages p:hover{
     cursor: pointer;

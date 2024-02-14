@@ -18,8 +18,12 @@ import "./skills.css"
 
 const Skills = () => {
   const imgs = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15]
-  const [skills,setSkills] = useState(["HTML","CSS","JavaScript","React","Node.js","Express","Sequelize",
+  const [devSkills,setdevSkills] = useState(["HTML","CSS","JavaScript","React","Node.js","Express","Sequelize",
   "PostgreSQL","MongoDB","Mongoose","Python","Wordpress","WooCommerce","Bootstrap","Git"])
+  const [secSkills,setSecSkills] = useState(["IDOR", "XSS", "CSRF", "RCE",
+  "Directory Traversal", "File Inclusion","SQL Injection","SSRF","Burp Suite","OWASP ZAP", "Nikto","WPScan","Kali Linux",,"Nmap", "Nessus","Metasploit", "ExploitDB","Wireshark","SQLMap","Meterpreter",
+  "John The Ripper","ffuf","dnsrecon","Tor","Shodan","Hydra","Linux PrivEsc","DirBuster","sublist3r","Google Dorks"])
+  
   return (
     <div className="skills-container">
       <h4>Web dev/Programming &gt;</h4>
@@ -27,7 +31,16 @@ const Skills = () => {
         {imgs.map((img,index)=>{
           return <div className="skill">
             <img src={imgs[index]}/>
-            <p>{skills[index]}</p>
+            <p>{devSkills[index]}</p>
+          </div>
+        })}
+      </div>
+      <h4 style={{marginTop:'50px'}}>Cybersecurity &gt;</h4>
+      <div className="sec-skills">
+        {secSkills.map((skill,index)=>{
+          return <div className="secSkill">
+            <p><i class="fa fa-dot-circle-o" aria-hidden="true" style={{marginRight:"10px",color:"red"}}></i>
+            {secSkills[index]}</p>
           </div>
         })}
       </div>

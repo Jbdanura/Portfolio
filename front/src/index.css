@@ -2,11 +2,11 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  
+  color: #edf6e5;
 }
 body{
-  background-color: rgb(230, 230, 230);
-  font-family: 'Roboto', sans-serif;
+  background-color: rgb(21, 29, 59);
+  font-family: 'Work Sans',sans-serif
 }
 a, a:hover, a:focus, a:active {
   text-decoration: none;

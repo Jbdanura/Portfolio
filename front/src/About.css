@@ -1,0 +1,24 @@
+.about{
+    transform: translate(-10000px,-10000px);
+}
+.about-active{
+    transition: 1s;
+}
+
+.info p{
+    margin-top: 20px;
+    line-height: 30px;
+    color: #edf6e5de;
+}
+.info{
+    width: 60%;
+}
+.about-top{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-top img{
+    transform: rotate(4deg);
+    border-radius: 20px;
+}

@@ -9,6 +9,7 @@ import img5 from "./images/5.png"
 
 const Projects = () => {
   const imgs = [img1,img2,img3,img4,img5]
+  
   return (
     <div className="projects-container">
       {projects && projects.map((project,index)=>{

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import Me from "./images/me.png"
 import htb from "./images/hackthebox.jpg"
 import thm from "./images/tryhackme.png"
@@ -9,14 +9,23 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
 
 const HomeContent = () => {
+
+  const [show,setShow] = useState(false)
+
+  useEffect(()=>{
+    setTimeout(()=>{
+        setShow(true)
+    },1)
+  },[])
+
   return (
-    <div className="home-content">
+    <div className={show ? "home-content-active" : "home-content"}>
         <div className="home-main">
             <div className="left">
                 <img src={Me} className="left-img"/>
                 <h1>Full-stack web developer and cybersecurity practitioner.</h1>
                 <p>I am a web developer based in Argentina, with skills in cybersecurity. 
-                    With a diverse project background, I bring a problem-solving mindset to crafting scalable and secure web applications. 
+                    I bring a problem-solving mindset to crafting scalable and secure web applications. 
                     Fluent in both English and Spanish, I am dedicated to creating reliable web applications, 
                     ready to take on new challenges and contribute to projects.</p>
                 <div className="links">

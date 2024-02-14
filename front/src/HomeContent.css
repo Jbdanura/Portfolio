@@ -2,9 +2,14 @@
     width: 80%;
     margin: 0 auto;
     margin-top: 60px;
+    padding-bottom: 100px;
 }
 .home-content{
+    transform: translateX(-10000px);
+}
+.home-content-active{
     margin-bottom: 100px;
+    transition: 1s;
 }
 .home-main{
     display: flex;
@@ -14,6 +19,8 @@
     width: 350px;
     height: 350px;
     margin-top: 100px;
+    transform: rotate(4deg);
+    border-radius: 20px;
 }
 .left-img{
     width: 80px;
@@ -26,11 +33,12 @@
     width: 80%;
     font-weight: bolder;
 }
+
 .home-main p{
     font-size: 17px;
     width: 70%;
     margin-top: 30px;
-    color: rgb(88, 88, 88);
+    color: #edf6e5c5;
     line-height: 27px;
 }
 .links *{
@@ -120,7 +128,7 @@
         height: 38px;
         transform: translateY(6px);
     }
-    .home-content{
+    .home-content-active{
         margin-bottom: 20px;
     }
     .home-main .right img{
