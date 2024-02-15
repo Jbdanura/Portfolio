@@ -40,10 +40,10 @@ const About = () => {
       <div className="certificates">
       <h3>My certificates &gt;</h3>
         <div className='certificates-container'>
-          <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/3e69ddfaf1d7687096c149631706fd46"><img src="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/3e69ddfaf1d7687096c149631706fd46"/></a>
-          <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fs-psql/en/aa058d2c5779d20738fd9ca0496075ad"><img src="https://studies.cs.helsinki.fi/stats/api/certificate/fs-psql/en/aa058d2c5779d20738fd9ca0496075ad"/></a>
-          <a href="https://app.cybrary.it/courses/api/certificate/CC-0dde3957-313c-4c65-987c-4b13499dc615/view"><img src={certI}/></a>
-          <a href="https://elearning.securityblue.team/home/certificate/478566829"><img src={certII}/></a>
+          <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/3e69ddfaf1d7687096c149631706fd46" target="_blank"><img src="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/3e69ddfaf1d7687096c149631706fd46"/></a>
+          <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fs-psql/en/aa058d2c5779d20738fd9ca0496075ad" target="_blank"><img src="https://studies.cs.helsinki.fi/stats/api/certificate/fs-psql/en/aa058d2c5779d20738fd9ca0496075ad"/></a>
+          <a href="https://app.cybrary.it/courses/api/certificate/CC-0dde3957-313c-4c65-987c-4b13499dc615/view" target="_blank"><img src={certI}/></a>
+          <a href="https://elearning.securityblue.team/home/certificate/478566829" target="_blank"><img src={certII}/></a>
         </div>
       </div>
     </div>

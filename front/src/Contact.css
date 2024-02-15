@@ -3,4 +3,35 @@
 }
 .contact-active{
     transition: 1s;
+    margin: 5px;
+    margin-top: 50px;
+}
+.contact-active p{
+    margin-top: 20px;
+    width: 80%;
+}
+.contact-container svg{
+    transform: scale(3.5);
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+.contact-container p{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.contact-container a{
+    display: flex;
+}
+@media screen and (max-width: 400px) {
+    .contact-active{
+        margin: 15px;
+        margin-top: 20px;
+    }
+    .contact-container p{
+        margin-left: 30px;
+    }
 }
