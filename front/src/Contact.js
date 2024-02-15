@@ -20,7 +20,7 @@ const Contact = () => {
         I'm always open to connecting with new people and exploring exciting opportunities. </p>
         <div className="contact-container">
             <a href="https://github.com/Jbdanura" target="_blank"><FontAwesomeIcon icon={faGithub} className="github-icon"/>
-            <p>Contact me on GitHub</p></a> 
+            <p>Follow me on GitHub</p></a> 
             <a href="mailto:danurabe@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelopeOpen}/><p>danurabe@gmail.com</p></a> 
         </div>
     </div>
