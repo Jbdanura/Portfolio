@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import "./Contact.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
@@ -21,10 +21,11 @@ const Contact = () => {
         <div className="contact-container">
             <a href="https://github.com/Jbdanura" target="_blank"><FontAwesomeIcon icon={faGithub} className="github-icon"/>
             <p>Follow me on GitHub</p></a> 
+            <a href="ln" target="_blank"><FontAwesomeIcon icon={faLinkedin} /><p>Contact me on LinkedIn</p></a>
             <a href="mailto:danurabe@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelopeOpen}/><p>danurabe@gmail.com</p></a> 
+            
         </div>
     </div>
   )
 }
-
 export default Contact
