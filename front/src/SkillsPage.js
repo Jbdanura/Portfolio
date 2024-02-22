@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react'
 import Skills from './Skills'
 import "./skills.css"
 
-const SkillsPage = () => {
+const SkillsPage = ({translations}) => {
   const [show,setShow] = useState(false)
 
   useEffect(()=>{
@@ -13,8 +13,8 @@ const SkillsPage = () => {
 
   return (
     <div className={show ? "skills-page-active" :"skills-page"}>
-        <h3 style={{fontSize:'29px',textAlign:'center',marginTop:'50px'}}>Things I've learned through my journey</h3>
-        <Skills/>
+        <h3 style={{fontSize:'29px',textAlign:'center',marginTop:'50px'}}>{translations.skillsIntro}</h3>
+        <Skills translations={translations}/>
     </div>
   )
 }

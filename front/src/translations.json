@@ -1,10 +1,34 @@
 {
     "English":{
         "homeTop":"Full-stack web developer and cybersecurity practitioner.",
-        "homeDesc":"I am a web developer based in Argentina, with skills in cybersecurity. I bring a problem-solving mindset to crafting scalable and secure web applications. Fluent in both English and Spanish, I am dedicated to creating reliable web applications, ready to take on new challenges and contribute to projects."
+        "homeDesc":"I am a web developer based in Argentina, with skills in cybersecurity. I bring a problem-solving mindset to crafting scalable and secure web applications. Fluent in both English and Spanish, I am dedicated to creating reliable web applications, ready to take on new challenges and contribute to projects.",
+        "projects":["Social media app made with the PERN stack","React movie app that shows information about movies using the TMDB API.","Curriculum Vitae/Resume builder made with React","Sports e-commerce made with Wordpress using WooCommerce","App that shows trending news from around the world"],
+        "myProjects":"My projects",
+        "projectsJourney":"In my journey as a web developer, I've had the opportunity to work on a variety of projects that showcase my skills and expertise. From developing interactive social media platforms to building robust e-commerce solutions, each project has been a learning experience that has honed my abilities in crafting scalable and secure web applications. Below, you'll find a selection of projects that highlight my problem-solving approach, attention to detail, and commitment to delivering high-quality results.",
+        "justinCase":"(May take 30 seconds to load and doesn't use SSL certificate since it's a free host)",
+        "visitSite":"Visit site",
+        "skillsIntro":"Things I've learned through my journey",
+        "skillsDev":"Web dev/Programming",
+        "skillsSec":"Cybersecurity",
+        "contactIntro":"Let's get in touch",
+        "contactDesc":"For inquiries, collaborations, or just to say hello, feel free to reach out. I'm always open to connecting with new people and exploring exciting opportunities.",
+        "contactGit":"Follow me on GitHub",
+        "contactLn":"Follow me on LinkedIn"
     },
     "Spanish":{
         "homeTop":"Desarrollador web full-stack y practicante de ciberseguridad.",
-        "homeDesc":"Soy un desarrollador web con base en Argentina, con habilidades en ciberseguridad. Traigo una mentalidad de resolución de problemas para diseñar aplicaciones web escalables y seguras. Fluido tanto en inglés como en español, estoy dedicado a crear aplicaciones web confiables, listo para asumir nuevos desafíos y contribuir a proyectos."
+        "homeDesc":"Soy un desarrollador web con base en Argentina, con habilidades en ciberseguridad. Traigo una mentalidad de resolución de problemas para diseñar aplicaciones web escalables y seguras. Fluido tanto en inglés como en español, estoy dedicado a crear aplicaciones web confiables, listo para asumir nuevos desafíos y contribuir a proyectos.",
+        "projects":["App de red social creada con el stack PERN ","App de peliculas hecha con React usando la API de TMDB","Creador de Curriculum Vitae creada con React","E-commerce de deportes usando Wordpress y WooCommerce","App de React que muestra nuevas noticias mundiales"],
+        "myProjects":"Mis proyectos",
+        "projectsJourney":"A lo largo de mi camino como desarrolador web, tuve la oportunidad de trabajar en una variedad de proyectos que muestran mis habilidades y conocimientos. Desde desarrollar una app de red social interactiva, hasta crear soluciones robustas de e-commerce, cada proyecto fue una experience de aprendizaje que forjó mis habilidades para crear aplicaciones web confiables. Abajo, encontrarás mi selección de proyectos que demuestran my capacidad de resolución de problemas y atención al detalle.",
+        "justinCase":"(Puede tardar hasta 30 segundos en cargar y no utiliza certificado de SSL porque es un host gratuito)",
+        "visitSite":"Visitar sitio",
+        "skillsIntro":"Cosas que aprendi a lo largo de mi carrera",
+        "skillsDev":"Desarrollo web/programación",
+        "skillsSec":"Ciberseguridad",
+        "contactIntro":"Contáctame!",
+        "contactDesc":"Para consultas, colaboraciones o simplemente para saludar, no dudes en ponerte en contacto. Siempre estoy abierto a conectar con nuevas personas y explorar emocionantes oportunidades.",
+        "contactGit":"Sigueme en GitHub",
+        "contactLn":"Contáctame por LinkedIn"
     }
 }

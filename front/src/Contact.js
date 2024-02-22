@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub,faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
 
-const Contact = () => {
+const Contact = ({translations}) => {
   const [show,setShow] = useState(false)
 
   useEffect(()=>{
@@ -15,13 +15,12 @@ const Contact = () => {
 
   return (
     <div className={show ? "contact-active" : "contact"}>
-      <h1>Let's get in touch</h1>
-      <p>For inquiries, collaborations, or just to say hello, feel free to reach out. 
-        I'm always open to connecting with new people and exploring exciting opportunities. </p>
+      <h1>{translations.contactIntro}</h1>
+      <p>{translations.contactDesc} </p>
         <div className="contact-container">
             <a href="https://github.com/Jbdanura" target="_blank"><FontAwesomeIcon icon={faGithub} className="github-icon"/>
-            <p>Follow me on GitHub</p></a> 
-            <a href="ln" target="_blank"><FontAwesomeIcon icon={faLinkedin} /><p>Contact me on LinkedIn</p></a>
+            <p>{translations.contactGit}</p></a> 
+            <a href="ln" target="_blank"><FontAwesomeIcon icon={faLinkedin} /><p>{translations.contactLn}</p></a>
             <a href="mailto:danurabe@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelopeOpen}/><p>danurabe@gmail.com</p></a> 
             
         </div>

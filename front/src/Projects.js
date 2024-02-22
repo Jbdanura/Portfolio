@@ -7,7 +7,7 @@ import img3 from "./images/3.png"
 import img4 from "./images/4.png"
 import img5 from "./images/5.png"
 
-const Projects = () => {
+const Projects = ({translations}) => {
   const imgs = [img1,img2,img3,img4,img5]
   
   return (
@@ -16,10 +16,10 @@ const Projects = () => {
         return <div className={index === 0 ? "project project-highlight" : "project"}>
           <div className="left"></div>
           <h2>{project.title}</h2>
-          <p>{project.content}</p>
+          <p>{translations.projects[index]}</p>
           <img className="project-img" src={imgs[index]}/>
-          <a className="visit-site" href={project.link} target='_blank'>&gt; Visit site</a>
-          {index === 3 && <p style={{color:'grey'}}>(May take 30 seconds to load and doesn't use SSL certificate since it's a free host)</p>}
+          <a className="visit-site" href={project.link} target='_blank'>&gt; {translations.visitSite}</a>
+          {index === 3 && <p style={{color:'grey'}}>{translations.justinCase}</p>}
         </div>
       })}
     </div>

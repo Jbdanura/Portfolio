@@ -29,7 +29,7 @@ const Home = () => {
   const backToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // Optional: Adds smooth scrolling behavior
+      behavior: 'smooth' 
   })};
 
   return (
@@ -37,18 +37,18 @@ const Home = () => {
         <Router>
             <Header active={active} setActive={setActive}/>
             <Routes>
-                <Route path="/projects" element={<ProjectsPage/>}/>
-                <Route path="/skills" element={<SkillsPage/>}/>
-                <Route path="/about" element={<About/>}/>
-                <Route path="/contact" element={<Contact/>}/>
+                <Route path="/projects" element={<ProjectsPage translations={translations}/>}/>
+                <Route path="/skills" element={<SkillsPage translations={translations}/>}/>
+                <Route path="/about" element={<About language={language}/>}/>
+                <Route path="/contact" element={<Contact translations={translations}/>}/>
             </Routes>
             {active === "home" && <div className="home-active">
               <HomeContent translations={translations}/>
             </div>}
             <div className="language-container">
               <button className="back-top" onClick={()=>backToTop()}>↑</button>
-              <button className={language == "es" ? "language-btn-active language-btn" : "language-btn"} onClick={()=>setLanguage("es")}>Spanish</button>
-              <button className={language == "en" ? "language-btn-active language-btn" : "language-btn"}onClick={()=>setLanguage("en")}>English</button>
+              <button className={language == "es" ? "language-btn-active language-btn" : "language-btn"} onClick={()=>setLanguage("es")}>ES</button>
+              <button className={language == "en" ? "language-btn-active language-btn" : "language-btn"}onClick={()=>setLanguage("en")}>EN</button>
             </div>
             <Footer/>
         </Router>
