@@ -14,9 +14,23 @@ import Footer from "./Footer"
 import HomeContent from './HomeContent';
 import ProjectsPage from './ProjectsPage';
 import SkillsPage from './SkillsPage';
+import translationsJson from "./translations.json"
 
 const Home = () => {
   const [active,setActive] = useState("home")
+  const [language,setLanguage] = useState("en")
+  const [translations,setTranslations] = useState([])
+  const [showLanguages,setShowLanguages] = useState(false)
+
+  useEffect(()=>{
+    language == "es" ? setTranslations(translationsJson.Spanish) : setTranslations(translationsJson.English)
+  },[language])
+
+  const backToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Optional: Adds smooth scrolling behavior
+  })};
 
   return (
     <div className="home">
@@ -29,8 +43,13 @@ const Home = () => {
                 <Route path="/contact" element={<Contact/>}/>
             </Routes>
             {active === "home" && <div className="home-active">
-              <HomeContent/>
+              <HomeContent translations={translations}/>
             </div>}
+            <div className="language-container">
+              <button className="back-top" onClick={()=>backToTop()}>↑</button>
+              <button className={language == "es" ? "language-btn-active language-btn" : "language-btn"} onClick={()=>setLanguage("es")}>Spanish</button>
+              <button className={language == "en" ? "language-btn-active language-btn" : "language-btn"}onClick={()=>setLanguage("en")}>English</button>
+            </div>
             <Footer/>
         </Router>
   </div>

@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <div className="projects-container">
       {projects && projects.map((project,index)=>{
-        return <div className="project">
+        return <div className={index === 0 ? "project project-highlight" : "project"}>
           <div className="left"></div>
           <h2>{project.title}</h2>
           <p>{project.content}</p>

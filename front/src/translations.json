@@ -1,0 +1,10 @@
+{
+    "English":{
+        "homeTop":"Full-stack web developer and cybersecurity practitioner.",
+        "homeDesc":"I am a web developer based in Argentina, with skills in cybersecurity. I bring a problem-solving mindset to crafting scalable and secure web applications. Fluent in both English and Spanish, I am dedicated to creating reliable web applications, ready to take on new challenges and contribute to projects."
+    },
+    "Spanish":{
+        "homeTop":"Desarrollador web full-stack y practicante de ciberseguridad.",
+        "homeDesc":"Soy un desarrollador web con base en Argentina, con habilidades en ciberseguridad. Traigo una mentalidad de resolución de problemas para diseñar aplicaciones web escalables y seguras. Fluido tanto en inglés como en español, estoy dedicado a crear aplicaciones web confiables, listo para asumir nuevos desafíos y contribuir a proyectos."
+    }
+}

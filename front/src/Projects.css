@@ -54,6 +54,9 @@
 .projects-intro h3{
     font-size: 33px;
 }
+.project-highlight{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
 .projects-intro p{
     width: 80%;
     font-size: 17px;

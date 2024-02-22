@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
 
-const HomeContent = () => {
+const HomeContent = ({translations}) => {
 
   const [show,setShow] = useState(false)
 
@@ -23,11 +23,8 @@ const HomeContent = () => {
         <div className="home-main">
             <div className="left">
                 <img src={Me} className="left-img"/>
-                <h1>Full-stack web developer and cybersecurity practitioner.</h1>
-                <p>I am a web developer based in Argentina, with skills in cybersecurity. 
-                    I bring a problem-solving mindset to crafting scalable and secure web applications. 
-                    Fluent in both English and Spanish, I am dedicated to creating reliable web applications, 
-                    ready to take on new challenges and contribute to projects.</p>
+                <h1>{translations.homeTop}</h1>
+                <p>{translations.homeDesc}</p>
                 <div className="links">
                     <a href="https://github.com/Jbdanura" target="_blank"><FontAwesomeIcon icon={faGithub} className="github-icon"/></a> 
                     <a href="mailto:danurabe@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelopeOpen}/></a> 
