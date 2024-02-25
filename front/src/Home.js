@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <div className="home">
         <Router>
-            <Header active={active} setActive={setActive}/>
+            <Header active={active} setActive={setActive} language={language}/>
             <Routes>
                 <Route path="/projects" element={<ProjectsPage translations={translations}/>}/>
                 <Route path="/skills" element={<SkillsPage translations={translations}/>}/>

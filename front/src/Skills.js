@@ -21,7 +21,7 @@ const Skills = ({translations}) => {
   const [devSkills,setdevSkills] = useState(["HTML","CSS","JavaScript","React","Node.js","Express","Sequelize",
   "PostgreSQL","MongoDB","Mongoose","Python","Wordpress","WooCommerce","Bootstrap","Git"])
   const [secSkills,setSecSkills] = useState(["IDOR", "XSS", "CSRF", "RCE",
-  "Directory Traversal", "File Inclusion","SQL Injection","SSRF","Burp Suite","OWASP ZAP", "Nikto","WPScan","Kali Linux",,"Nmap", "Nessus","Metasploit", "ExploitDB","Wireshark","SQLMap","Meterpreter",
+  "Directory Traversal", "File Inclusion","SQL Injection","SSRF","Burp Suite","OWASP ZAP", "Nikto","WPScan","Kali Linux","Nmap", "Nessus","Metasploit", "ExploitDB","Wireshark","SQLMap","Meterpreter",
   "John The Ripper","ffuf","dnsrecon","Tor","Shodan","Sandboxing","Log analysis","SIEM","Static analysis", "Phishing analysis","Hydra","Linux PrivEsc","DirBuster","sublist3r","Google Dorks",])
   
   return (

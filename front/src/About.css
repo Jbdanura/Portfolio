@@ -20,6 +20,7 @@
 }
 .about-top img{
     transform: rotate(4deg);
+    width: 350px;
     border-radius: 20px;
 }
 .certificates{
@@ -36,6 +37,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 25px;
+    padding-bottom: 50px;
 }
 .certificates-container a{
     display: inline-block;
@@ -64,6 +66,7 @@
     }
     .about-top{
         display: block;
+        margin-left: 20px;
     }
     .info{
         width: 90%;

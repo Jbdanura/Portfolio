@@ -17,15 +17,14 @@
 }
 .home-main .right img{
     width: 350px;
-    height: 350px;
+    height: auto;
     margin-top: 100px;
     transform: rotate(4deg);
     border-radius: 20px;
 }
 .left-img{
-    width: 80px;
-    height: 80px;
-    border-radius: 90px;
+    width: 70px;
+    border-radius: 200px;
     margin-bottom: 20px;
 }
 .home-main h1{
@@ -48,7 +47,7 @@
 }
 .links img{
     width: 42px;
-    height: 40px;
+    height: auto;
     transform: translateY(6px);
     border-radius: 6px;
 }
@@ -62,7 +61,6 @@
 @media screen and (max-width:1200px){
     .home-main .right img{
         width: 300px;
-        height: 300px;
     }
     .home-main h1{
         font-size: 38px;
@@ -75,7 +73,6 @@
 @media screen and (max-width:1000px){
     .home-main .right img{
         width: 250px;
-        height: 250px;
     }
     .home-main{
         width: 85%;
@@ -92,7 +89,6 @@
 @media screen and (max-width:830px){
     .home-main .right img{
         width: 200px;
-        height: 200px;
     }
     .home-main{
         width: 95%;
