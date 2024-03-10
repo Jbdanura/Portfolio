@@ -17,8 +17,12 @@ import SkillsPage from './SkillsPage';
 import translationsJson from "./translations.json"
 
 const Home = () => {
+
+  let userLang = navigator.language || navigator.userLanguage; 
+  userLang = userLang.substr(0,2)
+
   const [active,setActive] = useState("home")
-  const [language,setLanguage] = useState("en")
+  const [language,setLanguage] = useState(userLang)
   const [translations,setTranslations] = useState([])
   const [showLanguages,setShowLanguages] = useState(false)
 

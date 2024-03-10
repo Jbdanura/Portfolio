@@ -36,6 +36,9 @@
     color: white;
     font-size: 25px;
 }
+.home-active{
+    padding-bottom: 50px;
+}
 @media screen and (max-width:1300px){
     .home{
         width: 80vw;

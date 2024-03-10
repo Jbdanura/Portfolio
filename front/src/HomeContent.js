@@ -6,7 +6,7 @@ import leetcode from "./images/leetcode.png"
 import "./HomeContent.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeOpen,faBriefcase} from '@fortawesome/free-solid-svg-icons'
 
 const HomeContent = ({translations}) => {
 
@@ -36,6 +36,21 @@ const HomeContent = ({translations}) => {
             <div className='right'>
                 <img src={Me}/>
             </div>
+        </div>
+        <div className='work-container'>
+          <h3><FontAwesomeIcon icon={faBriefcase}/> {translations.work}</h3>
+          <div className="jobs">
+            <div className="job">
+              <h4>{translations.ai}</h4>
+              <p>Remotasks </p>
+              <p>{translations.present}</p>
+            </div>
+            <div className="job">
+              <h4>Bug Bounty hunter</h4>
+              <p>Hackerone </p>
+              <p>{translations.present}</p>
+            </div>
+          </div>
         </div>
     </div>
   )

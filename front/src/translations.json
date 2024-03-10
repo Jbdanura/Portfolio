@@ -13,11 +13,14 @@
         "contactIntro":"Let's get in touch",
         "contactDesc":"For inquiries, collaborations, or just to say hello, feel free to reach out. I'm always open to connecting with new people and exploring exciting opportunities.",
         "contactGit":"Follow me on GitHub",
-        "contactLn":"Follow me on LinkedIn"
+        "contactLn":"Follow me on LinkedIn",
+        "work":"Work",
+        "present":"2023 - Present",
+        "ai":"AI Trainer"
     },
     "Spanish":{
         "homeTop":"Desarrollador web full-stack y practicante de ciberseguridad.",
-        "homeDesc":"Soy un desarrollador web con base en Argentina, con habilidades en ciberseguridad. Traigo una mentalidad de resolución de problemas para diseñar aplicaciones web escalables y seguras. Fluido tanto en inglés como en español, estoy dedicado a crear aplicaciones web confiables, listo para asumir nuevos desafíos y contribuir a proyectos.",
+        "homeDesc":"Soy un desarrollador web de Argentina, con habilidades en ciberseguridad. Traigo una mentalidad de resolución de problemas para diseñar aplicaciones web escalables y seguras. Fluido tanto en inglés como en español, estoy dedicado a crear aplicaciones web confiables, listo para asumir nuevos desafíos y contribuir a proyectos.",
         "projects":["App de red social creada con el stack PERN ","App de peliculas hecha con React usando la API de TMDB","Creador de Curriculum Vitae creada con React","E-commerce de deportes usando Wordpress y WooCommerce","App de React que muestra nuevas noticias mundiales"],
         "myProjects":"Mis proyectos",
         "projectsJourney":"A lo largo de mi camino como desarrolador web, tuve la oportunidad de trabajar en una variedad de proyectos que muestran mis habilidades y conocimientos. Desde desarrollar una app de red social interactiva, hasta crear soluciones robustas de e-commerce, cada proyecto fue una experience de aprendizaje que forjó mis habilidades para crear aplicaciones web confiables. Abajo, encontrarás mi selección de proyectos que demuestran my capacidad de resolución de problemas y atención al detalle.",
@@ -29,6 +32,9 @@
         "contactIntro":"Contáctame!",
         "contactDesc":"Para consultas, colaboraciones o simplemente para saludar, no dudes en ponerte en contacto. Siempre estoy abierto a conectar con nuevas personas y explorar emocionantes oportunidades.",
         "contactGit":"Sigueme en GitHub",
-        "contactLn":"Contáctame por LinkedIn"
+        "contactLn":"Contáctame por LinkedIn",
+        "work":"Trabajos",
+        "present":"2023 - Presente",
+        "ai":"Entrenador de IA"
     }
 }

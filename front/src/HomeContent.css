@@ -4,6 +4,22 @@
     margin-top: 60px;
     padding-bottom: 100px;
 }
+.work-container{
+    width:30%;
+    margin-left: 10%;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.job p{
+    margin-top: 5px;
+    margin-left: 30px;
+    color:#edf6e5d5
+}
+.job{
+    margin-top: 10px;
+}
 .home-content{
     transform: translateX(-10000px);
 }
@@ -85,6 +101,9 @@
         font-size: 15px;
         width: 80%;
     }
+    .work-container{
+        width:50%;
+    }
 }
 @media screen and (max-width:830px){
     .home-main .right img{
@@ -128,10 +147,10 @@
         margin-bottom: 20px;
     }
     .home-main .right img{
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        margin-top: 40px;
+        display: none;
     }
-
+    .work-container{
+        width:70%;
+        margin-top: -30px;
+    }
 }

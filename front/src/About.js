@@ -3,6 +3,8 @@ import "./About.css"
 import Me from "./images/me.png"
 import certI from "./images/certI.png"
 import certII from "./images/certII.png"
+import certIII from "./images/certIII.png"
+import certIV from "./images/certIV.png"
 
 
 const About = ({language}) => {
@@ -32,7 +34,7 @@ const About = ({language}) => {
             y <a href="https://app.hackthebox.com/users/1484721" target="_blank" style={{color:'red'}}> HackTheBox</a>, haciendo más de 100 CTFs y
              desafíos. Mi experiencia radica en crear aplicaciones web seguras y realizar pruebas de penetración para aplicaciones y sistemas, 
              garantizando su resistencia contra posibles amenazas. Te invito a explorar mi trabajo y proyectos en
-            <a href="https://github.com/jbdanura" target="_blank" style={{color:'red'}}> my GitHub</a>.
+            <a href="https://github.com/jbdanura" target="_blank" style={{color:'red'}}> mi GitHub</a>.
           </p>
         </div> : 
         <div className="info">
@@ -57,8 +59,8 @@ const About = ({language}) => {
       <div className="certificates">
       <h3>{language == "en" ? "My certificates" : "Mis certificados"} &gt;</h3>
         <div className='certificates-container'>
-          <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/3e69ddfaf1d7687096c149631706fd46" target="_blank"><img src="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/3e69ddfaf1d7687096c149631706fd46"/></a>
-          <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fs-psql/en/aa058d2c5779d20738fd9ca0496075ad" target="_blank"><img src="https://studies.cs.helsinki.fi/stats/api/certificate/fs-psql/en/aa058d2c5779d20738fd9ca0496075ad"/></a>
+          <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/3e69ddfaf1d7687096c149631706fd46" target="_blank"><img src={certIII}/></a>
+          <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fs-psql/en/aa058d2c5779d20738fd9ca0496075ad" target="_blank"><img src={certIV}/></a>
           <a href="https://app.cybrary.it/courses/api/certificate/CC-0dde3957-313c-4c65-987c-4b13499dc615/view" target="_blank"><img src={certI}/></a>
           <a href="https://elearning.securityblue.team/home/certificate/478566829" target="_blank"><img src={certII}/></a>
         </div>
