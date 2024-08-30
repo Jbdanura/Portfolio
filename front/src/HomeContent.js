@@ -45,11 +45,6 @@ const HomeContent = ({translations}) => {
               <p>Remotasks </p>
               <p>{translations.present}</p>
             </div>
-            <div className="job">
-              <h4>Bug Bounty hunter</h4>
-              <p>Hackerone </p>
-              <p>{translations.present}</p>
-            </div>
           </div>
         </div>
     </div>

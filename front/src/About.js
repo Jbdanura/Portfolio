@@ -22,7 +22,7 @@ const About = ({language}) => {
       <div className="about-top">
         {language == "es" ? 
           <div className="info">
-          <h1>Soy<span style={{color:'#ff7676'}}> Bautista Danura</span>. Tengo 23 años y vivo en <span style={{color:'rgb(193 255 255)'}}>Arg</span>
+          <h1>Soy<span style={{color:'#ff7676'}}> Bautista Danura</span>. Tengo 24 años y vivo en <span style={{color:'rgb(193 255 255)'}}>Arg</span>
           <span style={{color:'white'}}>e</span><span style={{color:'#ffffb6'}}>n</span><span style={{color:'white'}}>t</span><span style={{color:'rgb(193 255 255)'}}>ina</span></h1>
           <p> 
           Con un portafolio diverso que se extiende desde aplicaciones de red social hasta soluciones e-commerce,
@@ -38,7 +38,7 @@ const About = ({language}) => {
           </p>
         </div> : 
         <div className="info">
-          <h1>I'm <span style={{color:'#ff7676'}}>Bautista Danura</span>. I am 23 years old and I live in <span style={{color:'rgb(193 255 255)'}}>Arg</span>
+          <h1>I'm <span style={{color:'#ff7676'}}>Bautista Danura</span>. I am 24 years old and I live in <span style={{color:'rgb(193 255 255)'}}>Arg</span>
           <span style={{color:'white'}}>e</span><span style={{color:'#ffffb6'}}>n</span><span style={{color:'white'}}>t</span><span style={{color:'rgb(193 255 255)'}}>ina</span></h1>
           <p> 
           With a diverse portfolio ranging from social media platforms to e-commerce applications,
