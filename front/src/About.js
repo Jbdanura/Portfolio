@@ -22,7 +22,7 @@ const About = ({language}) => {
       <div className="about-top">
         {language == "es" ? 
           <div className="info">
-          <h1>Soy<span style={{color:'#ff7676'}}> Bautista Danura</span>. Tengo 24 años y vivo en <span style={{color:'rgb(193 255 255)'}}>Arg</span>
+          <h1>Soy<span style={{color:'#ff7676'}}> Bautista Danura</span>. Tengo 25 años y vivo en <span style={{color:'rgb(193 255 255)'}}>Arg</span>
           <span style={{color:'white'}}>e</span><span style={{color:'#ffffb6'}}>n</span><span style={{color:'white'}}>t</span><span style={{color:'rgb(193 255 255)'}}>ina</span></h1>
           <p> 
           Con un portafolio diverso que se extiende desde aplicaciones de red social hasta soluciones e-commerce,
@@ -35,10 +35,12 @@ const About = ({language}) => {
              desafíos. Mi experiencia radica en crear aplicaciones web seguras y realizar pruebas de penetración para aplicaciones y sistemas, 
              garantizando su resistencia contra posibles amenazas. Te invito a explorar mi trabajo y proyectos en
             <a href="https://github.com/jbdanura" target="_blank" style={{color:'red'}}> mi GitHub</a>.
+            <p style={{fontWeight:"bolder"}}>Entre 2023 y 2025 trabajé como entrenador de inteligencia artificial en las empresas Remotasks y Outlier, contribuyendo al desarrollo y entrenamiento de modelos de IA.
+            </p>
           </p>
         </div> : 
         <div className="info">
-          <h1>I'm <span style={{color:'#ff7676'}}>Bautista Danura</span>. I am 24 years old and I live in <span style={{color:'rgb(193 255 255)'}}>Arg</span>
+          <h1>I'm <span style={{color:'#ff7676'}}>Bautista Danura</span>. I am 25 years old and I live in <span style={{color:'rgb(193 255 255)'}}>Arg</span>
           <span style={{color:'white'}}>e</span><span style={{color:'#ffffb6'}}>n</span><span style={{color:'white'}}>t</span><span style={{color:'rgb(193 255 255)'}}>ina</span></h1>
           <p> 
           With a diverse portfolio ranging from social media platforms to e-commerce applications,
@@ -53,17 +55,10 @@ const About = ({language}) => {
              You're welcome to explore my work and projects on
             <a href="https://github.com/jbdanura" target="_blank" style={{color:'red'}}> my GitHub</a>.
           </p>
+          <p style={{fontWeight:"bolder"}}>From 2023 to 2025, I worked as an AI trainer at Remotasks and Outlier, contributing to the development and training of machine learning models.
+          </p>
         </div>}
         <img src={Me}/>
-      </div>
-      <div className="certificates">
-      <h3>{language == "en" ? "My certificates" : "Mis certificados"} &gt;</h3>
-        <div className='certificates-container'>
-          <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/3e69ddfaf1d7687096c149631706fd46" target="_blank"><img src={certIII}/></a>
-          <a href="https://studies.cs.helsinki.fi/stats/api/certificate/fs-psql/en/aa058d2c5779d20738fd9ca0496075ad" target="_blank"><img src={certIV}/></a>
-          <a href="https://app.cybrary.it/courses/api/certificate/CC-0dde3957-313c-4c65-987c-4b13499dc615/view" target="_blank"><img src={certI}/></a>
-          <a href="https://elearning.securityblue.team/home/certificate/478566829" target="_blank"><img src={certII}/></a>
-        </div>
       </div>
     </div>
   )

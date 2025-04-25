@@ -42,8 +42,13 @@ const HomeContent = ({translations}) => {
           <div className="jobs">
             <div className="job">
               <h4>{translations.ai}</h4>
-              <p>Remotasks </p>
-              <p>{translations.present}</p>
+              <p>Remotasks</p>
+              <p>{translations.past}</p>
+            </div>
+            <div className="job">
+              <h4>{translations.ai}</h4>
+              <p>Outlier</p>
+              <p>{translations.pastTwo}</p>
             </div>
           </div>
         </div>
