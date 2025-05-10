@@ -10,11 +10,11 @@
         "skillsDev":"Web dev/Programming",
         "skillsSec":"Cybersecurity",
         "contactIntro":"Let's get in touch",
-        "contactDesc":"For inquiries, collaborations, or just to say hello, feel free to reach out. I'm always open to connecting with new people and exploring exciting opportunities.",
+        "contactDesc":"For inquiries or collaborations, feel free to reach out. I'm always open to connecting with new people and exploring exciting opportunities.",
         "contactGit":"Follow me on GitHub",
         "contactLn":"Follow me on LinkedIn",
         "work":"Work",
-        "past":"2023 - 2024",
+        "past":"2023",
         "pastTwo":"2024 - 2025",
         "ai":"AI Trainer"
     },
@@ -29,11 +29,11 @@
         "skillsDev":"Desarrollo web/programación",
         "skillsSec":"Ciberseguridad",
         "contactIntro":"Contáctame!",
-        "contactDesc":"Para consultas, colaboraciones o simplemente para saludar, no dudes en ponerte en contacto. Siempre estoy abierto a conectar con nuevas personas y explorar emocionantes oportunidades.",
+        "contactDesc":"Para consultas o colaboraciones, no dudes en ponerte en contacto. Siempre estoy abierto a conectar con nuevas personas y explorar emocionantes oportunidades.",
         "contactGit":"Sigueme en GitHub",
         "contactLn":"Contáctame por LinkedIn",
         "work":"Trabajos",
-        "past":"2023 - 2024",
+        "past":"2023",
         "pastTwo":"2024- 2025",
         "ai":"Entrenador de IA"
     }
